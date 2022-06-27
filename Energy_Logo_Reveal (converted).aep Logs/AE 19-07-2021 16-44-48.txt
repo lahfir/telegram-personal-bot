@@ -1,0 +1,8 @@
+  19-07-2021 16:44:48: Starting composition “Control”.
+
+  Output To: D:\ContentC\D4B\Demo Bot\Logo-Reveal.avi    19-07-2021 16:46:55: Finished composition “Control”.
+
+
+  Total Time Elapsed: 2 Min, 7 Sec
+Log closed on 19-07-2021 at 16:46:55
+
