@@ -609,9 +609,10 @@ def handle_message(update: Update, context: CallbackContext):
 
     text = str(update.effective_message.text).lower()
     try:
-        update._effective_message.reply_text(
-            text=chat.Response(text), parse_mode=ParseMode.HTML
-        )
+        # update._effective_message.reply_text(
+        #     text=chat.Response(text), parse_mode=ParseMode.HTML
+        # )
+        update._effective_message.reply_text(text="Hello", parse_mode=ParseMode.HTML)
     except Exception as e:
         print(e)
         if e.message == "Forbidden: bot was blocked by the user":
