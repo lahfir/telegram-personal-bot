@@ -24,7 +24,7 @@ updater = Updater(os.getenv(tkn), use_context=True)
 dispatcher = updater.dispatcher
 
 cluster = MongoClient(
-    "mongodb+srv://lahfir:RnDxp9OYuCheZHpl@democluster.q6wxp.mongodb.net/demo-bot?ssl=true&ssl_cert_reqs=CERT_NONE"
+    ""
 )
 if cluster:
     print("Connected")
