@@ -24,7 +24,7 @@ updater = Updater(os.getenv(tkn), use_context=True)
 dispatcher = updater.dispatcher
 
 cluster = MongoClient(
-    ""
+    "REMOVED THIS FOR SECURITY PURPOSE. COPY PASTE AGAIN FROM MONGODB ATLAS :)"
 )
 if cluster:
     print("Connected")
